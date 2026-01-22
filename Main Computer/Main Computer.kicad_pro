@@ -427,8 +427,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Baja SAE Footprints"
+    ],
+    "pinned_symbol_libs": [
+      "Baja SAE Symbols"
+    ]
   },
   "meta": {
     "filename": "Main Computer.kicad_pro",
