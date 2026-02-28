@@ -1,5 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "UNIT_1")(type "KiCad")(uri "BAJA SAE:SHIELD_ARDUINO_NANO")(options "")(descr ""))
+  (lib (name "UNIT_1")(type "KiCad")(uri "BAJA SAE:SHIELD_ARDUINO_NANO")(options "")(descr "")(disabled))
   (lib (name "0_Baja_2025")(type "KiCad")(uri "C:/Users/Nkrav/Documents/GitHub/2025-2026-firmware/hardware/KICAD Projects/BAJE SAE/Sensor Projects/Tachometer/0_Baja_2025.pretty")(options "")(descr ""))
+  (lib (name "New Tachometer")(type "KiCad")(uri "C:/Users/Nkrav/Documents/GitHub/hardware-2025-2026/New Tachometer")(options "")(descr ""))
 )
