@@ -4748,10 +4748,6 @@
 		(uuid "21c108e6-36c3-4682-891b-4af59ffd240d")
 	)
 	(no_connect
-		(at 67.31 227.33)
-		(uuid "280a54cf-4b8a-4072-ab9e-09db3bde243d")
-	)
-	(no_connect
 		(at 63.5 80.01)
 		(uuid "32b13885-a2a3-438f-b863-bc7232101242")
 	)
@@ -17155,7 +17151,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 186.69 158.75 180)
+		(at 180.34 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17165,7 +17161,7 @@
 		)
 		(uuid "0ea34fa5-6f89-49dd-8544-49eaba9a23fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8343 158.75 0)
+			(at 173.4843 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,28 +17607,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UPPER_Button"
-		(shape input)
-		(at 186.69 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "281cd222-547e-4e15-9209-f2d2709e06a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.2793 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18607,7 +18581,7 @@
 	)
 	(global_label "LOWER_Button"
 		(shape input)
-		(at 186.69 156.21 180)
+		(at 180.34 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18617,7 +18591,7 @@
 		)
 		(uuid "647bfe9c-4081-4599-a688-c16f45e2a1f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3398 156.21 0)
+			(at 163.9898 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20059,28 +20033,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 186.69 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cef30006-2ad1-4cd5-92df-1329b6cd5fce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8343 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 266.7 182.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -20431,6 +20383,28 @@
 			)
 		)
 	)
+	(global_label "CAN_INT"
+		(shape input)
+		(at 44.45 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd986464-d137-4944-89de-911453ee87a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.9052 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW10_UPPER"
 		(shape input)
 		(at 459.74 57.15 0)
@@ -20607,6 +20581,28 @@
 			)
 		)
 	)
+	(global_label "CAN_INT"
+		(shape input)
+		(at 67.31 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebc5454e-8518-4d8e-8cb3-37d12ee1d878")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.7652 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COM_Digit2_UPPER"
 		(shape input)
 		(at 264.16 58.42 180)
@@ -20708,28 +20704,6 @@
 		(uuid "f486fada-ab90-475c-89d7-636f00dbfe5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 394.8273 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UPPER_Button"
-		(shape input)
-		(at 44.45 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6bf4492-2ad8-4809-b2be-f18c6bd7697e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.0393 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21953,76 +21927,6 @@
 			(project "Dash"
 				(path "/514ba468-47e0-43f8-9194-8a3a232891b9"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 191.77 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58da63e6-5950-492a-aa4a-57ef4e439a1f")
-		(property "Reference" "J4"
-			(at 193.04 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UPPER Button"
-			(at 193.04 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5e2b92d-9ab0-4fc9-af78-516012c4234a")
-		)
-		(pin "2"
-			(uuid "8aed2f0e-9f8c-415e-9102-81cb9f9504fa")
-		)
-		(instances
-			(project ""
-				(path "/514ba468-47e0-43f8-9194-8a3a232891b9"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -24787,7 +24691,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 191.77 158.75 180)
+		(at 185.42 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24796,7 +24700,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc55d072-f2ee-4ede-89d6-0c62e2b9f2e2")
 		(property "Reference" "J6"
-			(at 193.04 156.2099 0)
+			(at 186.69 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24805,7 +24709,7 @@
 			)
 		)
 		(property "Value" "LOWER Button"
-			(at 193.04 158.7499 0)
+			(at 186.69 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24814,7 +24718,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 191.77 158.75 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24823,7 +24727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 158.75 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24832,7 +24736,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 191.77 158.75 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
