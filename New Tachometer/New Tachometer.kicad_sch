@@ -4435,6 +4435,10 @@
 		(uuid "2a6a9a8d-52b4-419d-b717-550b192d000a")
 	)
 	(no_connect
+		(at 127 121.92)
+		(uuid "32b39cad-984e-4421-8437-903ead15475f")
+	)
+	(no_connect
 		(at 129.54 157.48)
 		(uuid "338e5295-2988-473f-8fae-7436869c149d")
 	)
@@ -4465,10 +4469,6 @@
 	(no_connect
 		(at 231.14 124.46)
 		(uuid "50bc9644-c2a6-4913-a61e-6e93bf2259f7")
-	)
-	(no_connect
-		(at 269.24 139.7)
-		(uuid "542161ff-3a25-458a-8a8c-a3ccd06a2e7f")
 	)
 	(no_connect
 		(at 104.14 157.48)
@@ -4509,10 +4509,6 @@
 	(no_connect
 		(at 121.92 157.48)
 		(uuid "a0aa798b-8b96-4611-8add-45203ca7db5c")
-	)
-	(no_connect
-		(at 127 157.48)
-		(uuid "aa148424-00e7-459f-8892-4cb1e6402d39")
 	)
 	(no_connect
 		(at 124.46 121.92)
@@ -4705,16 +4701,6 @@
 			(type default)
 		)
 		(uuid "319e1067-89b3-4c58-9eaf-e2da3763b50b")
-	)
-	(wire
-		(pts
-			(xy 127 119.38) (xy 127 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33694617-857e-4dbe-9706-b8045cc08736")
 	)
 	(wire
 		(pts
@@ -5018,6 +5004,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 139.7) (xy 278.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ce009d-2332-4a74-acaa-2b9b2ec87476")
+	)
+	(wire
+		(pts
 			(xy 212.09 87.63) (xy 218.44 87.63)
 		)
 		(stroke
@@ -5218,6 +5214,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 171.45) (xy 127 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c12a555-92f3-474e-a14a-26839ad7cc75")
+	)
+	(wire
+		(pts
 			(xy 207.01 154.94) (xy 207.01 157.48)
 		)
 		(stroke
@@ -5225,6 +5231,16 @@
 			(type default)
 		)
 		(uuid "9ca9edac-54df-4ddf-bd89-c1d69247f3fa")
+	)
+	(wire
+		(pts
+			(xy 278.13 171.45) (xy 127 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d68cb8d-ae3d-4b2c-9f04-e17508b9df61")
 	)
 	(wire
 		(pts
@@ -5265,6 +5281,16 @@
 			(type default)
 		)
 		(uuid "a6fe64f7-078f-4d7f-b873-4f53041db5b7")
+	)
+	(wire
+		(pts
+			(xy 278.13 139.7) (xy 278.13 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6dc104-b18a-41fc-b1f0-4cbc2959f245")
 	)
 	(wire
 		(pts
@@ -6054,28 +6080,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INT"
-		(shape input)
-		(at 127 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92a548c1-ee22-4e6a-95dc-2c00a3aae591")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 113.4919 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8883,7 +8887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e7befb5-3d31-4f22-9611-9ecb4235f4d2")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 327.406 127 0)
 			(effects
 				(font
@@ -9085,7 +9089,7 @@
 		(instances
 			(project "New Tachometer"
 				(path "/5984495b-0ee4-4b65-b298-d000695921f9"
-					(reference "U4")
+					(reference "U1")
 					(unit 0)
 				)
 			)
@@ -9767,7 +9771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97a30d6d-5235-436c-b29c-3f961ca425bc")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 236.22 114.3 0)
 			(effects
 				(font
@@ -10009,7 +10013,7 @@
 		(instances
 			(project "New Tachometer"
 				(path "/5984495b-0ee4-4b65-b298-d000695921f9"
-					(reference "U3")
+					(reference "U2")
 					(unit 0)
 				)
 			)
@@ -10641,7 +10645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd15a817-8ae4-427c-b0d2-8232fe59a075")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 124.46 69.8814 0)
 			(effects
 				(font
@@ -10711,7 +10715,7 @@
 		(instances
 			(project "New Tachometer"
 				(path "/5984495b-0ee4-4b65-b298-d000695921f9"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10789,8 +10793,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6198111-665c-42b4-84f4-60168729506f")
-		(property "Reference" "U1"
-			(at 241.3 30.5114 90)
+		(property "Reference" "U4"
+			(at 241.3 30.4098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +10802,7 @@
 			)
 		)
 		(property "Value" "NE555P"
-			(at 241.3 33.0514 90)
+			(at 241.3 32.9498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +10863,7 @@
 		(instances
 			(project "New Tachometer"
 				(path "/5984495b-0ee4-4b65-b298-d000695921f9"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
