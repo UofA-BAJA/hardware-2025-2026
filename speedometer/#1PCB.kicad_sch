@@ -6442,7 +6442,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 356.87 184.15 180)
+		(at 229.87 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6452,7 +6452,7 @@
 		)
 		(uuid "321db878-5f26-4b28-a999-f4f589f83885")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.0143 184.15 0)
+			(at 223.0143 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6574,7 @@
 	)
 	(global_label "Low"
 		(shape input)
-		(at 356.87 191.77 180)
+		(at 229.87 234.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6584,7 +6584,7 @@
 		)
 		(uuid "4902b215-1992-451f-9970-5b220d89e675")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.3772 191.77 0)
+			(at 223.3772 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7080,7 @@
 	)
 	(global_label "High"
 		(shape input)
-		(at 356.87 189.23 180)
+		(at 229.87 232.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7090,7 +7090,7 @@
 		)
 		(uuid "aaa50c61-25cb-4180-9710-4bb165bdbad9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.6515 189.23 0)
+			(at 222.6515 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7124,7 @@
 	)
 	(global_label "High"
 		(shape input)
-		(at 356.87 194.31 180)
+		(at 229.87 237.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7134,7 +7134,7 @@
 		)
 		(uuid "b89afc82-b561-4f6e-8717-31a3d82b7538")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.6515 194.31 0)
+			(at 222.6515 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7234,7 @@
 	)
 	(global_label "Low"
 		(shape input)
-		(at 356.87 186.69 180)
+		(at 229.87 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7244,7 +7244,7 @@
 		)
 		(uuid "cb244817-950f-4c27-a55f-784299d34f61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.3772 186.69 0)
+			(at 223.3772 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7366,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 356.87 181.61 180)
+		(at 229.87 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7376,7 +7376,7 @@
 		)
 		(uuid "f8828867-701b-4f6e-84c4-94a63a7ad788")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.0143 181.61 0)
+			(at 223.0143 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13342,7 @@
 	)
 	(symbol
 		(lib_id "DTF13-6P:DTF13-6P")
-		(at 367.03 186.69 0)
+		(at 240.03 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13350,7 +13350,7 @@
 		(dnp no)
 		(uuid "d56864ff-240b-4f1e-b6f2-6fde68f2cc3d")
 		(property "Reference" "J3"
-			(at 363.728 198.12 0)
+			(at 236.728 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13359,7 +13359,7 @@
 			)
 		)
 		(property "Value" "DTF13-6P"
-			(at 363.728 200.66 0)
+			(at 236.728 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +13368,7 @@
 			)
 		)
 		(property "Footprint" "New Tachometer-2025-12-06_105253:TE_DTF13-6P"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +13378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13387,7 +13387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,7 +13396,7 @@
 			)
 		)
 		(property "Comment" "DTF13-6P"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,7 +13406,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13416,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "22.35mm"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13426,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +13436,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13446,7 +13446,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13456,7 +13456,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,7 +13466,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13476,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13486,7 @@
 			)
 		)
 		(property "MP" "DTF13-6P"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13496,7 +13496,7 @@
 			)
 		)
 		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +13506,7 @@
 			)
 		)
 		(property "Description_1" "Connector, 6-Way, Black, Polyamide, DT Series | TE Connectivity DTF13-6P"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13516,7 +13516,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13526,7 +13526,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 367.03 186.69 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
